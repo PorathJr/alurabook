@@ -36,7 +36,7 @@
     display: none;
     position: absolute;
     top: 100%;
-    width: 60vw;
+    width: 100vw;
 }
 
 .container__botao:checked~.lista-menu {
@@ -78,6 +78,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .lista-menu{
+        width: 60vw;
+    }
+    
     .container__titulo, .container__titulo--negrito {
         font-family: var(--fonte-secundaria);
         font-size: 30px;
@@ -143,6 +147,10 @@
 }
 
 @media screen and (min-width: 1728px) {
+    .lista-menu{
+        width: 60vw;
+    }
+    
     .container__link {
         display: flex;
         align-items: center;
